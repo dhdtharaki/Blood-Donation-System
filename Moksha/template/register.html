@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>register</title>
+        <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <div id="main">
+                <div id="header1">
+                  <div id="lg">
+                    <div id="lg_text">
+                      <h1><a href="index.html">eBlood<span class="lg_colour">Bank</span></a></h1>
+                      <h2>Give the gift of life :: Donate Blood</h2>
+                    </div>
+                  </div>
+                  <div id="menubar">
+                    <ul id="menu">
+                        <li><a href="../../Nadula/Nadula/index.html">Home</a></li>
+                        <li  class="selected"><a href="news.html">News</a></li>
+                        <li><a href="../../Nadula/Nadula/login.html">Login</a></li>
+                        <li><a href="../../Dilmi/Dilmi/contacts.html">Cotact Us</a></li>
+                        <li><a href="../../Dilmi/Dilmi/about1.html">About Us</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <form action="src/form.php" method="post">
+            <div class="imgcontainer">
+                <img src="./images/avatar.jpeg" alt="Avatar" class="avatar">
+              </div><br>
+        <div class="row">
+            <label class="col1">First Name : <br>
+                <input type="text"value="First Name" name="fname"></label>
+            <label class="col2">Last Name : <br>
+                <input type="text"value="Last Name" name="lname"></label>
+        </div><br>
+
+        <div class="row">
+            <label class="col1">Username : <br>
+                <input type="text" name="Username" value="Username"></label>
+            <label class="col2">E-mail : <br>
+                <input type="email" name="Enter your email here"></label><br>
+        </div><br>
+
+        <div class="row">
+            <label class="col1">Password : <br>
+                <input type="password"value="password"name="pword"></label>
+            <label class="col2">Confirm Password : <br>
+                <input type="password"value="password"name="pword"></label>
+        </div><br>
+
+        <div class="row">
+            <label class="col1"> NIC :
+                <input type="text" name="Nic">
+            </label>
+            <label class="col2">Age : <br>
+                <input type="number" value="age"name="age"></label>
+        </div><br>
+
+        <div class="row">
+            <label class="col1">Gender details : <br>
+                <select name="gender" id="gen">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </label>
+            <label class="col2">Select blood type : <br>
+                <select name="bollod group" id="grp">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O+">O-</option>
+                </select>
+            </label>
+        </div><br>
+
+        <div class="row">
+            <label class="col1">Address : <br>
+                <input type="text"value="Address"name="address"></label><br>
+            <label class="col2">Contact Number : 
+                <input type="number"value="Contact Number"name="phone"></label>
+        </div><br> 
+        
+            <label>Have any diesases? : <br>
+                <textarea name="diesases" id="diesases" cols="30" rows="10">If you have any disases, Please explain here.</textarea></label><br>
+        <hr>
+        <div class="container signin">
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p><br>
+        <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+        </div>
+        </form>
+        </div>
+        <footer>
+            <div id="footer">
+               Copyright &copy; eBloodBak | SLIIT | 2022 | MLB_04.1_02 </a>
+            </div>
+        </footer>
+    </body>
+</html>

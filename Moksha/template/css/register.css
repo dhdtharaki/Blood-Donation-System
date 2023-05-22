@@ -1,0 +1,103 @@
+* {box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;}
+
+
+form{
+    width: 60%;
+    height: fit-content;
+    box-shadow: 0 0 3px o rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: left;
+    display: inline-flexbox;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+  }
+  input{
+      width:"25%";
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password], input[type=email], input[type=number],textarea,select
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 ;
+    display: inline-block;
+    border:none;
+    background: #efc5c5;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus,input[type=email]:focus,input[type=number]:focus 
+  {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #292727;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+    align-items: center;
+  }
+  .row{
+      width: fit-content;
+      display: flex;
+  }
+  .col2{
+      position: relative;
+      text-transform: capitalize;
+      font-size: 14px;
+      left: 55px; 
+      top: 0px;
+      width: 380px;
+  }
+
+  .col1{
+      position: relative;
+      text-transform: capitalize;
+      font-size: 14px;
+      left: 5px; 
+      top: 0px;
+      width: 380px;
+   }
+   .avatar{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
