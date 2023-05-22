@@ -1,0 +1,98 @@
+.x ul
+	{list-style-type: none;
+  	margin: 0;
+  	padding: 10px;
+	background-color:white;}
+.x li 
+	{display:inline-block;}	
+.x a
+	{color:white;
+	text-decoration:none;
+	width:100px;
+	padding : 0px 20px;}
+.square
+	{width : 450px;
+	 height : 200px;
+	 margin : 0px;
+	 padding: 10px;
+	 position : relative;
+	 background-image: url("C:/xampp/htdocs/IWT/src/Dilmi/Dilmi/images/bdsbg.jpg");
+	 color: black; }
+.button
+	{width : 40x;
+	 height : 20px;
+	background-color:"#a28382";
+	}
+.y ul
+	{list-style-type: none;
+  	margin: 0;
+  	padding: 0;}
+.y li 
+	{display:inline-block;}	
+.content
+	{width : 203px;
+	 height : 20px;
+	 margin : 0px;
+	 position : relative;
+	 color :black;}	
+.contact
+{
+    background-color: #fbdecf;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}  
+sm
+{   
+    position: relative;
+    bottom: 0;
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    border-top: 1px solid rgb(175, 172, 172);
+}
+
+.sm-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 1rem -3rem;
+}
+
+.socials li
+{   
+    display: inline;
+    margin: 0 10px;    
+}
+.comment
+{
+    color: Black;
+    padding: 10px 10px 10px 10px;
+}
+form { width:500px;
+	height : 300px;
+	margin:auto;
+	padding:14px;
+	font-size:20
+	font-family:verdana;
+	color:white;
+	background-image: url("C:/xampp/htdocs/IWT/src/Dilmi/Dilmi/images/dna.jpg");}
+table
+	{color:black;
+	width:600px;
+	height : 50px;}
+
+
+

@@ -1,0 +1,132 @@
+#header1
+{ background: #9f0505;
+  height: 240px;
+}
+
+#header2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+  body
+  { font: normal .80em 'trebuchet ms', arial, sans-serif;
+    background: #F0EFE2;
+    color: rgb(249, 234, 234);}
+  
+p
+{
+    
+    padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+h2
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #1a1c1c;}
+
+  ul
+  { margin: 2px 0 22px 17px;}
+  
+  ul li
+  { list-style-type: circle;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;}
+  
+  ol
+  { margin: 8px 0 22px 20px;}
+  
+  ol li
+  { margin: 0 0 11px 0;}
+  
+   #lg, #menubar, #site_content, #footer
+  { margin-left: auto; 
+    margin-right: auto;}
+  
+
+    #lg
+    { width: 825px;
+      position: relative;
+      height: 168px;
+      background: #9c0404 url('../images/lg.jpeg') no-repeat;}
+
+
+      #lg #lg_text 
+      {
+        
+        position: absolute; 
+        top: 20px;
+        left: 650px;}
+      
+      #lg h1, #lg h2
+      { font: normal 300% 'century gothic', arial, sans-serif;
+        border-bottom: 0;
+        text-transform: none;
+        margin: 0;}
+      
+      #lg_text h1, #lg_text h1 a, #lg_text h1 a:hover 
+      { padding: 22px 0 0 0;
+        color: #FFF;
+        letter-spacing: 0.1em;
+        text-decoration: none;}
+      
+      #lg_text h1 a .lg_colour
+      { color: #FAF700;}
+      
+      #lg_text h2
+      { font-size: 100%;
+        padding: 4px 0 0 0;
+        color: #DDD;}
+
+#menubar
+{ width: 877px;
+  height: 72px;
+  padding: 0;
+  background: #5A2C24 url(menu.png) repeat-x;} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+  ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+  { color: #FFF;
+    background: #451C1B url(menu_select.png) repeat-x;}
+
+  #footer
+  { width: 878px;
+    font: normal 100% 'lucida sans unicode', arial, sans-serif;
+    height: 33px;
+    padding: 24px 0 5px 0;
+    text-align: center; 
+    background: #29425E url(footer.png) repeat-x;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;}
+  
+
+
+
+  
+
+
+
+

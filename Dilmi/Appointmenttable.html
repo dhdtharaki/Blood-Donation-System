@@ -1,0 +1,74 @@
+<?php
+	include_once('config.php');
+
+	$query= "SELECT * FROM appointment";
+	$result=mysqli_query($query);
+	?>
+	
+<!DOCTYPE HTML>
+<html>
+
+
+
+<head>
+  <title>eBLoodBank :: BloodDonationSystem</title>
+  
+  <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/Style1.css">
+</head>
+<body>
+  
+  
+  <div id="main">
+    <div id="header1">
+      <div id="lg">
+        <div id="lg_text">
+          <h1><a href="index.html">eBlood<span class="lg_colour">Bank</span></a></h1>
+          <h2>Give the gift of life :: Donate Blood</h2>
+        </div>
+      </div>
+   
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="../../Nadula/Nadula/Donorindex.html">Home</a></li>
+		   <li ><a href="../../Moksha/template/news.html">News</a></li>
+          <li><a href="../../Nadula/Nadula/Daccount.php">Dashboard</a></li>
+          <li><a href="contacts.html">Contact us</a></li>
+          <li><a href="about1.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+	<center><h2>List of Appointments</h2>
+		<br> <table border="1">
+		<tr> <th>Appointment_ID</th>
+			<th>Date </th>
+			<th>Time </th>
+			<th>Location</th>
+			<th>DID</th>
+			<th>MID</th>
+			</tr>
+			<?php
+			while($row = mysql_fetch_assoc($result))
+				{
+			?>
+			<tr>
+				<td><?php echo $row['Appointment_ID'];?></td>
+				<td><?php echo $row['Date'];?></td>
+				<td><?php echo $row['Time'];?></td>
+				<td><?php echo $row['Location'];?></td>
+				<td><?php echo $row['DID'];?></td>
+				<td><?php echo $row['MID'];?></td></tr>
+				
+			<?php
+				}
+			?>
+			</table>	
+	</center></div>
+		 <div id="footer">
+      Copyright &copy; IT21255588 | SLIIT | 2022 |  Design By - MLB_04.01_02 </a>
+    </div>
+</body>
+
+
+
+</html>

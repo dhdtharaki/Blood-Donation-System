@@ -1,0 +1,77 @@
+<?php SESSION_start(); ?>
+
+<!DOCTYPE HTML>
+<html>
+
+
+
+<head>
+  <title>eBLoodBank :: BloodDonationSystem</title>
+  
+  <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/Style1.css">
+</head>
+<body>
+  
+  
+  <div id="main">
+    <div id="header1">
+      <div id="lg">
+        <div id="lg_text">
+          <h1><a href="index.html">eBlood<span class="lg_colour">Bank</span></a></h1>
+          <h2>Give the gift of life :: Donate Blood</h2>
+        </div>
+      </div>
+   
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="../../Nadula/Nadula/Donorindex.html">Home</a></li>
+		   <li ><a href="../../Moksha/template/news.html">News</a></li>
+          <li><a href="../../Nadula/Nadula/Daccount.php">Dashboard</a></li>
+          <li><a href="contacts.html">Contact us</a></li>
+          <li><a href="about1.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+	<?php
+		if (isset($_SESSION['status']))
+		{
+			echo "<h4>".$_SESSION['status']."</h4>";
+			unset ($_SESSION['status']);
+		}
+	?>
+	
+	<center><h2>Make an Appointment now</h2><br><br>
+	<form action="appointmentform.php" method="POST">
+	<b>DID:
+	<input type="text" name= "DID" id="DID" placeholder="Donor ID" required> <br><br>
+	Date:
+	<input type="date" name= "Date" id="Date" required><br><br>
+	Time: 
+	<select name="Time"id="Time" required>
+		<option selected hidden value ="" >Select a time</option>
+		<option value="t1" >9-11a.m</option>
+		<option value="t2" >12-2p.m</option>
+		<option value="t3" >4-6p.m</option>
+	</select>
+<br/><br/>
+	Location:
+	<select name="Location" id="Location" required>
+		<option selected hidden value ="" >Select a location</option>
+		<option value="L1" >Colombo 10</option>
+		<option value="L2" >Kaduwela</option>
+		<option value="L3" >Battaramulla</option>
+		<option value="L4" >Dehiwala</option>
+	</select><br><br><br>
+	<input type="submit" name="submit" value="Submit"></b>
+	
+<br/><br/></form></center>
+		 <div id="footer">
+      Copyright &copy; IT21255588 | SLIIT | 2022 |  Design By - MLB_04.01_02 </a>
+    </div>
+  </div>
+</body>
+
+
+
+</html>
